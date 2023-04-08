@@ -1,3 +1,4 @@
+package lab00;
 public class Java1st5th {
 	public static void main(String[] args) {
 		String	greeting = "elloHello";

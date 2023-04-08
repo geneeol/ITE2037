@@ -1,3 +1,4 @@
+package lab00;
 /**
  * StringProcessingDemo
  */
