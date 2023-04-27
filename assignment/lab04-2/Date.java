@@ -50,6 +50,7 @@ public class Date {
 	// {
 	// 	System.out.println("");
 	// }
+	//h boolean 자료형
 	public boolean	equals(Date otherDate)
 	{
 		return ((month.equalsIgnoreCase(otherDate.month))

@@ -11,7 +11,7 @@ public class Pet {
 		+ "\nWeight: " + weight + " pounds");
 	}
 
-	public Pet()
+	public Pet() //h 생성자 앞 퍼블릭 키워드
 	{
 		name = "No name yet.";
 		age = 0;

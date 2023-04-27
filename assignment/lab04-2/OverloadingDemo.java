@@ -8,7 +8,9 @@ public class OverloadingDemo {
 		System.out.println(date1);
 		date2.setDate("April", 6, 2022);
 		System.out.println(date2);
-		date3.readInput();
+		// date3.readInput();
+		date3.setDate(2008);
+		System.out.println(date1);
 		System.out.println(date3);
 	}
 	

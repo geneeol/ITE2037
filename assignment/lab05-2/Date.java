@@ -5,6 +5,7 @@ public class Date {
 	private int		day;
 	private int		year;
 
+	//h 생성자!!
 	// This is kind of setDate, 디폴트 생성자 (무인자 생성자)
 	// 생성자 5개 오버로딩
 	public Date()
@@ -56,6 +57,8 @@ public class Date {
 				&& (day == otherDate.day)
 				&& (year == otherDate.year));
 	}
+
+	//h boolean
 	public boolean	precedes(Date otherDate)
 	{
 		return ((year < otherDate.year)

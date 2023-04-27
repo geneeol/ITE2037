@@ -23,12 +23,12 @@ public class invocationCounter {
 		invocationCounter	object1 = new invocationCounter();
 		for (i = 1; i <= 5; i++)
 			object1.demoMethod(); 
-		object1.outPutCount(); // ppt에 인덴테이션 이상한 부분 있대
+		object1.outPutCount(); // ppt에 인덴테이션 이상한 부분 있대, 6
 		invocationCounter	object2 = new invocationCounter();
 		for (i = 1; i <= 5; i++)
 		{
-			object2.demoMethod();
-			object2.outPutCount();
+			object2.demoMethod(); 
+			object2.outPutCount(); // 8 10 12 14 16
 		}
 		System.out.println("Total number of invocations = " + numberSoFar());
 

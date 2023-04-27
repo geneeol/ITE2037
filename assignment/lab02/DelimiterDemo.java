@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
+//h 수업 다시 확인할 것!
+// abc xyz 입력시 처음엔 인자로 들어감
 public class DelimiterDemo {
 	public static void main(String[] args) {
 		Scanner	keyboard1 = new Scanner(System.in);
 		Scanner	keyboard2 = new Scanner(System.in);
-		keyboard2.useDelimiter("##");
+		keyboard2.useDelimiter("##"); //h 키보드2 객체에 적용된 함수임!
 
 		String	word1, word2;
 		System.out.println("Entter a line of text:");

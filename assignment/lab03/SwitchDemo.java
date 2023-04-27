@@ -7,6 +7,7 @@ public class SwitchDemo {
 		System.out.println("Enter number of ice cream flavors:");
 		int	numberOfFlavors = keyboard.nextInt();
 
+		//h 문법 알 것!
 		switch (numberOfFlavors)
 		{
 			case 32:

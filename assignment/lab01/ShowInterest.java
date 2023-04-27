@@ -1,7 +1,7 @@
-package assignment.lab01;
+// package assignment.lab01;
 
 public class ShowInterest {
-	public static final double	INTEREST_RATE = 2.5;
+	public static final double	INTEREST_RATE = 2.5; // public static final 키워드 알 것
 	public static void	main(String[] args)
 	{
 		double	balance = 100;

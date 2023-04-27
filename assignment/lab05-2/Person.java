@@ -59,6 +59,7 @@ public class Person {
 					&& datesMatch(died, otherPerson.died));
 	}
 
+	//h datesMatch 함수가 필요한가바..!
 	private static boolean datesMatch(Date date1, Date date2)
 	{
 		if (date1 == null)
@@ -136,7 +137,8 @@ public class Person {
 	public Date getBirthDate() //h
 	{
 		return new Date(born);
-		/h return (born); <- 이렇게 하지 말래. 유저가 born에 접근가능해지니까 privacy leak
+		//h return (born); <- 이렇게 하지 말래. 유저가 born에 접근가능해지니까 privacy leak
+		//h Date 클래스 변수는 클래스 내 프라이빗 함수. 그런데 이렇게 하면 date에 바로 접근 가능.
 	}
 
 	public Date getDeathDate()

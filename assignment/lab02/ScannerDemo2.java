@@ -27,8 +27,9 @@ public class ScannerDemo2 {
 		String	word2 = scannerObject.next();
 		System.out.println("You entered \"" + word1 + "\" and \"" + word2 + "\"");
 
+		//h 개행을 읽어 들여야 다음줄을 제대로 읽을 수 있다. (반드시 필요함)
+		//h nextLine()을 사용하기 전에 개행을 제거해주는 것!
 		String	junk = scannerObject.nextLine();
-		// 개행을 읽어 들여야 다음줄을 제대로 읽을 수 있다. (반드시 필요함)
 		// To get rid of '\n'
 
 		System.out.println("Next enter a line of text: ");

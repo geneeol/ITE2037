@@ -13,12 +13,16 @@ public class DateFourthTry {
 	// {
 	// 	System.out.println("");
 	// }
+
+	//TODO: 이 함수!
 	public boolean	equals(DateFourthTry otherDate)
 	{
 		return ((month.equals(otherDate.month))
 				&& (day == otherDate.day)
 				&& (year == otherDate.year));
 	}
+	
+	//TODO: 꼭 외울것!
 	public boolean	precedes(DateFourthTry otherDate)
 	{
 		return ((year < otherDate.year)
