@@ -6,7 +6,7 @@ public class Test {
 		String greeting = "Hello";
 		String helloVariable = greeting;
 		greeting = greeting + "friend."; // greeting은 변경됐지만
-		System.out.println(helloVariabl만);
+		System.out.println(helloVariable);
 	}
 
 	

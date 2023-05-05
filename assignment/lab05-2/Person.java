@@ -55,8 +55,8 @@ public class Person {
 			return false;
 		else
 			return (name.equals(otherPerson.name)
-					&& born.equals(otherPerson.born)
-					&& datesMatch(died, otherPerson.died));
+					&& born.equals(otherPerson.born) //h 태어난 날짜는 무조건 존재
+					&& datesMatch(died, otherPerson.died)); //h 죽은 날짜는 존재 안할수도
 	}
 
 	//h datesMatch 함수가 필요한가바..!

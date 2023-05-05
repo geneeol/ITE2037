@@ -62,7 +62,7 @@ int highEstimate = (int)Math.round(Math.ceil(exact));
   ## Boxing
 
   - Integer for int
-  - Byte for vyte
+  - Byte for byte
   - Short for short
   - Long for long
   - Float for float
