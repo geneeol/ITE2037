@@ -86,6 +86,20 @@ public class HourlyEmployee extends Employee {
 				&& wageRate == other.wageRate
 				&& hours == other.hours);
 	}
-
 	// public boolean equals(Object otherObject) 추가할 것
+
+	public boolean equals(Object otherObject)
+	{
+		if (otherObject == null)
+			return false;
+		else if (getClass() != otherObject.getClass())
+			return false;
+		else
+		{
+			HourlyEmployee otherHourlyEmployee = (HourlyEmployee)otherObject;
+			return (super.equals(otherObject)
+					&& wageRate == otherHourlyEmployee.wageRate
+					&& hours == otherHourlyEmployee.hours);
+		}
+	}
 }

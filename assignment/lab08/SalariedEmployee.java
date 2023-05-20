@@ -57,4 +57,18 @@ public class SalariedEmployee extends Employee {
 				&& getHireDate().equals(other.getHireDate()) 
 				&& salary == other.salary);
 	}
+
+	public boolean equals(Object otherObject)
+	{
+		if (otherObject == null)
+			return false;
+		else if (getClass() != otherObject.getClass())
+			return false;
+		else
+		{
+			SalariedEmployee otherEmployee = (SalariedEmployee)otherObject;
+			return (super.equals(otherObject) 
+					&& salary == otherEmployee.salary);
+		}
+	}
 }
